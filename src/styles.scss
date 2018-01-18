@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container{
+  max-width: 60rem;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header{
+  width: 100%;
+  background-color: dimgray;
+}
+
+main{
+  width: 85%;
+  background-color: azure;
+}
+
+aside{
+  width: 15%;
+  background-color: gray;
+}
+
+footer{
+  width: 100%;
+  background-color: dimgray;
+}
+
+nav{
+  width: 100%;
+  background-color: dimgray;
+}
